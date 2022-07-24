@@ -36,7 +36,7 @@ footer{
    align-items: center;
 }
 .street{
-    width: 100% auto;
+    width: 100%;
     position: absolute;
     bottom: 0;
 }
