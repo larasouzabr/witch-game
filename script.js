@@ -22,7 +22,10 @@ const loop = setInterval(() =>{
   const firePosition = fire.offsetLeft;
   const witchPosition = +window.getComputedStyle(witch).bottom.replace('px','');
 
- if(firePosition<= 80 && firePosition > 0 && witchPosition < 70 ){
+ if(firePosition<= 60 && firePosition > 0 && witchPosition < 50 ){
+    console.log(witchPosition)
+    console.log(firePosition)
+
     fire.style.animation = 'none';
     fire.style.left = `${firePosition}px`;
     witch.style.animation = 'none';
