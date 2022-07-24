@@ -36,4 +36,10 @@ const loop = setInterval(() =>{
  }
 },10);
 
+document.addEventListener('keydown', (e) => {
+    if(e.keyCode === 32){
+        jump();
+    }
+});
+
 document.addEventListener('click',jump);
