@@ -2,13 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
 }
-
+footer{
+    margin-top: 60%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.header{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+.welcome{
+ margin: 30px;   
+ font-size: 30px;
+ font-family: 'Creepster', cursive;
+ color: orange;
+}
 .game-body{
    width: 100%;
    height: 200px;
-   border: 0.1px solid #000;
-   margin: 100px auto;
+   margin: 20px auto;
    position: relative;
    overflow: hidden;
    background-image:url("./image/background.png");
@@ -19,7 +36,7 @@
    align-items: center;
 }
 .street{
-    width: 100%;
+    width: 100% auto;
     position: absolute;
     bottom: 0;
 }
@@ -41,8 +58,7 @@
     align-items: center;
 }
 #count{
-    color:darkblue;
-    
+    color:#fff;
 }
 .witch{
     width: 100px;
