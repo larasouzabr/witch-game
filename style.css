@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-body{
+   width: 100%;
+   height: 200px;
+   border: 0.1px solid #000;
+   margin: 100px auto;
+   position: relative;
+   overflow: hidden;
+   background-image:url("./image/background.png");
+   background-size: 100%;
+   background-repeat:no-repeat;
+   display:flex;
+   justify-content:center;
+   align-items: center;
+}
+.street{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.fire{
+   width: 110px;
+   position: absolute;
+   bottom: 0;
+   animation: fire 4s infinite linear;
+}
+.counter{
+    width: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #7676c1;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+#count{
+    color:darkorange;
+    
+}
+.witch{
+    width: 100px;
+    bottom: 0px;
+    left: 0;
+    position: absolute;
+}
+.jump{
+    animation: jump 2000ms ease-out;
+}
+.background{
+    background-color: #000;
+}
+.gameOver{
+    position: absolute;
+    width: 200px;
+}
+@keyframes fire {
+    from{
+    right: -70px;
+    }
+    to{
+    right: 100%;
+    }
+}
+
+@keyframes jump {
+   
+    0%{
+        bottom: 0;
+    }
+    40%{
+        bottom: 80px;
+    }
+    50%{
+        bottom: 80px;
+    }
+    60%{
+        bottom: 80px;
+    }
+    100%{
+        bottom: 0;
+    }
+}
