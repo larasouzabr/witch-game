@@ -30,7 +30,7 @@
    animation: fire 4s infinite linear;
 }
 .counter{
-    width: 70px;
+    width: 60px;
     border-radius: 5px;
     position: absolute;
     top: 0;
@@ -41,7 +41,7 @@
     align-items: center;
 }
 #count{
-    color:darkorange;
+    color:darkblue;
     
 }
 .witch{
@@ -53,9 +53,7 @@
 .jump{
     animation: jump 2000ms ease-out;
 }
-.background{
-    background-color: #000;
-}
+
 .gameOver{
     position: absolute;
     width: 200px;
